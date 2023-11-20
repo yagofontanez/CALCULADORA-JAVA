@@ -1,0 +1,105 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background: linear-gradient(to right, #4568DC, #B06AB3);
+    display: flex;
+    font-family: Arial;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+
+.wrapper {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px  solid rgba(255, 255, 255, 0.01);
+    border-radius: 8px;
+    box-shadow: 0 4px 30px;
+    color: black;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.30);
+    border: 3px solid rgba(255, 255, 255,);
+    flex-basis: 540px;
+    height: 565px;
+    padding: 20px 35px;
+}
+
+.tela {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 8px;
+    box-shadow: 0 4px 30px;
+    color: black;
+    font-size: 35px;
+    overflow: auto;
+    padding: 20px;
+    text-align: right;
+}
+
+.botaocalcr {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+.botaocalc {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(35, 35, 35, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 30px;
+    color: black;
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 24px;
+    height: 65px;
+}
+
+.botaocalc:last-child {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(35, 35, 35, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 30px;
+    color: black;
+    background: rgb(49, 207, 255);
+}
+
+.botaocalc:last-child:hover {
+    background: inherit;
+    color: inherit;
+}
+
+.botaocalc:hover {
+    background-color: inherit;
+}
+
+.botaocalc:active {
+    background-color: rgba(57, 253, 253, 0.705);
+}
+
+#dois {
+    flex-basis: 47%
+}
+
+#tres {
+    flex-basis: 73%;
+}
