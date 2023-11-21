@@ -53,16 +53,13 @@
 
     <script>
         function calcular() {
-            // Obtenha valores dos campos de entrada
             var num1 = parseFloat(document.getElementById("num1").value);
             var num2 = parseFloat(document.getElementById("num2").value);
             var operacao = document.getElementById("operacao").value;
 
-            // Envie uma solicitação AJAX para o Servlet
             var xhr = new XMLHttpRequest();
             xhr.onreadystatechange = function () {
                 if (xhr.readyState == 4 && xhr.status == 200) {
-                    // Atualize a interface do usuário com o resultado recebido
                     document.getElementById("resultado").innerText = xhr.responseText;
                 }
             };
